@@ -20,4 +20,9 @@
     <li><strong>Romance books:</strong> {{ num_romance_books }}</li>
     <li><strong>Test books:</strong> {{ num_test_books }}</li>
   </ul>
+
+  
+  <p>
+    You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.
+  </p>
 {% endblock %}
